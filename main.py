@@ -1,3 +1,5 @@
+import builtins
+builtins.breakpoint = lambda *args, **kwargs: None
 from game import GameState
 from battle import BattleState
 from config import Character, Verbose
