@@ -38,16 +38,6 @@ The system is designed for rapid prototyping and algorithmic experimentation, ma
 
 ---
 
-## Project Structure
-├── agent.py          # AI agent logic (MCTS, heuristics, etc.)
-├── battle.py         # Core battle loop and turn resolution
-├── card.py           # Card definitions and effects
-├── config.py         # Game configuration and constants
-├── game.py           # Game state management
-├── status_effects.py # Buffs, debuffs, and ongoing effects
-├── utility.py        # Helper functions
-└── README.md
-
 ## Potential Applications
 - AI research and benchmarking of decision-making algorithms in a controlled environment.
 - Game design prototyping for testing new card mechanics without building a full game.
